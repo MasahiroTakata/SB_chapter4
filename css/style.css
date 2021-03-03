@@ -43,6 +43,13 @@ img{
   text-transform: uppercase;
 }
 
+.main_nav a{
+  color: #432;
+}
+
+.main_nav a:hover{
+  color: #0bd;
+}
 .main_nav li{
   margin-left: 36px;
 }
@@ -59,5 +66,36 @@ img{
 
 /* 見出し */
 .page-title{
-  
+  font-size: 4rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+/* ボタン */
+.button{
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+}
+
+.button:hover{
+  background: #0090aa;
+}
+
+/* 背景画像 */
+.big-bg{
+  background-size: cover; /* 画像の縦横比を保ったまま、画面いっぱいに広げたい場合の設定 */
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home{
+  background-image: url('../images/main-bg.jpg');
+  min-height: 100vh;
+}
+
+#home .page-title{
+  text-transform: none;
 }
